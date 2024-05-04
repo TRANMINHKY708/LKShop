@@ -14,20 +14,20 @@ include "topheader.php";
             <?php  //success message
             if(isset($_POST['success'])) {
             $success = $_POST["success"];
-            echo "<h1 style='color:#0C0'>Your Product was added successfully &nbsp;&nbsp;  <span class='glyphicon glyphicon-ok'></h1></span>";
+            echo "<h1 style='color:#0C0'>Thêm sản phẩm thành công &nbsp;&nbsp;  <span class='glyphicon glyphicon-ok'></h1></span>";
             }
             ?></a>
                 </div>
                 <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title"> Users List</h4>
+                <h4 class="card-title">Danh sách người dùng</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                        <tr><th>ID</th><th>FirstName</th><th>LastName</th><th>Email</th><th>Password</th><th>Contact</th><th>Address</th><th>City</th>
+                        <tr><th>ID</th><th>Họ</th><th>Tên</th><th>Email</th><th>Mật khẩu</th><th>Liên hệ</th><th>Địa chỉ</th><th>Thành phố</th>
                     </tr></thead>
                     <tbody>
                       <?php 
@@ -50,7 +50,7 @@ include "topheader.php";
             <div class="col-md-6">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title"> Categories List</h4>
+                <h4 class="card-title">Danh mục sản phẩm</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
@@ -83,7 +83,7 @@ include "topheader.php";
           <div class="col-md-6">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Brands List</h4>
+                <h4 class="card-title">Danh sách hãng</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
@@ -124,7 +124,7 @@ include "topheader.php";
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                        <tr><th>ID</th><th>email</th>
+                        <tr><th>ID</th><th>Email</th>
                     </tr></thead>
                     <tbody>
                       <?php 

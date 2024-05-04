@@ -8,7 +8,7 @@
             
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">LK Shop</span>
             <span class="navbar-toggler-icon icon-bar"></span>
             <span class="navbar-toggler-icon icon-bar"></span>
             <span class="navbar-toggler-icon icon-bar"></span>
@@ -20,7 +20,7 @@
                   <i class="material-icons">person</i>
                   
                   <p class="d-lg-none d-md-block">
-                    Some Actions
+                    Một số chức năng
                   </p>
                 </a>
                 

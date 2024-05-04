@@ -19,15 +19,15 @@ include "topheader.php";
          <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Manage User</h4>
+                <h4 class="card-title">Quản lý người dùng</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table tablesorter table-hover" id="">
                     <thead class=" text-primary">
-                      <tr><th>User Name</th>
-                <th>User Password</th>
-	<th><a href="adduser.php" class="btn btn-success">Add New</a></th>
+                      <tr><th>Tên người dùng</th>
+                <th>Mật khẩu</th>
+	<th><a href="adduser.php" class="btn btn-success">Thêm mới</a></th>
                     </tr></thead>
                     <tbody>
                       <?php 

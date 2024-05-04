@@ -53,7 +53,7 @@ if (isset($_GET["st"])) {
 						<div class="navbar navbar-inverse navbar-fixed-top">
 							<div class="container-fluid">	
 								<div class="navbar-header">
-									<a href="#" class="navbar-brand">LK Store</a>
+									<a href="#" class="navbar-brand">LK Shop</a>
 								</div>
 								<ul class="nav navbar-nav">
 									<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Trang Chủ</a></li>
@@ -76,7 +76,7 @@ if (isset($_GET["st"])) {
 											<hr/>
 											<p>Xin chào quý khách<?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Quá trình thanh toán của bạn là đã hoàn tất thành công và id giao dịch của bạn là<b><?php echo $trx_id; ?></b><br/>
 											bạn có thể tiếp tục mua sắm<br/></p>
-											<a href="index.php" class="btn btn-success btn-lg">Continue Shopping</a>
+											<a href="index.php" class="btn btn-success btn-lg">Tiếp tục mua sắm</a>
 										</div>
 										<div class="panel-footer"></div>
 									</div>

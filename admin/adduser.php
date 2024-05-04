@@ -28,8 +28,8 @@ mysqli_close($con);
           <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Add Users</h4>
-                  <p class="card-category">Complete User profile</p>
+                  <h4 class="card-title">Thêm người dùng</h4>
+                  <p class="card-category">Hoàn tất</p>
                 </div>
                 <div class="card-body">
                   <form action="" method="post" name="form" enctype="multipart/form-data">
@@ -37,13 +37,13 @@ mysqli_close($con);
                       
                       <div class="col-md-3">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">First Name</label>
+                          <label class="bmd-label-floating">Họ</label>
                           <input type="text" id="first_name" name="first_name" class="form-control" required>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Last Name</label>
+                          <label class="bmd-label-floating">Tên</label>
                           <input type="text" name="last_name" id="last_name"  class="form-control" required>
                         </div>
                       </div>
@@ -57,7 +57,7 @@ mysqli_close($con);
                       </div>
                       <div class="col-md-6">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Password</label>
+                          <label class="bmd-label-floating">Mật khẩu</label>
                           <input type="password" id="password" name="password" class="form-control" required>
                         </div>
                       </div>
@@ -65,7 +65,7 @@ mysqli_close($con);
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">phone number</label>
+                          <label class="bmd-label-floating">Số điện thoại</label>
                           <input type="text" id="phone" name="phone" class="form-control" required>
                         </div>
                       </div>
@@ -73,20 +73,20 @@ mysqli_close($con);
                     <div class="row">
                       <div class="col-md-4">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">City</label>
+                          <label class="bmd-label-floating">Thành phố</label>
                           <input type="text" name="city" id="city"  class="form-control" required>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Address</label>
+                          <label class="bmd-label-floating">Địa chỉ</label>
                           <input type="text" name="country" id="country" class="form-control" required>
                         </div>
                       </div>
                       
                     </div>
                     
-                    <button type="submit" name="btn_save" id="btn_save" class="btn btn-primary pull-right">Update User</button>
+                    <button type="submit" name="btn_save" id="btn_save" class="btn btn-primary pull-right">Cập nhật</button>
                     <div class="clearfix"></div>
                   </form>
                 </div>

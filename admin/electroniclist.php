@@ -44,16 +44,16 @@ include "topheader.php";
          <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title"> Products List</h4>
+                <h4 class="card-title"> Danh mục hàng</h4>
                 <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
                       <label class="btn btn-sm btn-primary btn-simple active" id="0">
-                        <input type="radio" name="options" autocomplete="off" checked=""> electronic
+                        <input type="radio" name="options" autocomplete="off" checked=""> Tất cả
                       </label>
                       <label class="btn btn-sm btn-primary btn-simple" id="1">
-                        <input type="radio" name="options" autocomplete="off"> clothes
+                        <input type="radio" name="options" autocomplete="off"> Laptop
                       </label>
                       <label class="btn btn-sm btn-primary btn-simple" id="2">
-                        <input type="radio" name="options" autocomplete="off"> Home Appliances
+                        <input type="radio" name="options" autocomplete="off"> Bàn phím
                       </label>
                     </div>
               </div>
@@ -61,8 +61,8 @@ include "topheader.php";
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="page1">
                     <thead class=" text-primary">
-                      <tr><th>Image</th><th>Name</th><th>Price</th><th>
-	<a class=" btn btn-primary" href="addproduct.php">Add New</a></th></tr></thead>
+                      <tr><th>Ảnh</th><th>Tên</th><th>Giá</th><th>
+	<a class=" btn btn-primary" href="addproduct.php">Thêm mới</a></th></tr></thead>
                     <tbody>
                       <?php 
 
@@ -89,7 +89,7 @@ include "topheader.php";
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Trước</span>
                   </a>
                 </li>
                  <?php 
@@ -111,7 +111,7 @@ include "topheader.php";
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Next">
                     <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Sau</span>
                   </a>
                 </li>
               </ul>

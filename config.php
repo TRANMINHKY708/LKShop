@@ -27,11 +27,11 @@ if (isset($_POST['reg_user'])) {
 
   // form validation: ensure that the form is correctly filled ...
   // by adding (array_push()) corresponding error unto $errors array
-  if (empty($username)) { array_push($errors, "Username is required"); }
-  if (empty($email)) { array_push($errors, "Email is required"); }
-  if (empty($password_1)) { array_push($errors, "Password is required"); }
+  if (empty($username)) { array_push($errors, "Hãy nhập tên"); }
+  if (empty($email)) { array_push($errors, "Hãy nhập Email"); }
+  if (empty($password_1)) { array_push($errors, "Hãy nhập mật khẩu"); }
   if ($password_1 != $password_2) {
-	array_push($errors, "The two passwords do not match");
+	array_push($errors, "Xác thực mật khẩu không chính xác");
   }
 
   // first check the database to make sure 
@@ -42,11 +42,11 @@ if (isset($_POST['reg_user'])) {
   
   if ($user) { // if user exists
     if ($user['Name'] === $username) {
-      array_push($errors, "Username already exists");
+      array_push($errors, "Tên đăng nhập đã tồn tại");
     }
 
     if ($user['email'] === $email) {
-      array_push($errors, "email already exists");
+      array_push($errors, "Email đã tồn tại");
     }
   }
 
@@ -58,7 +58,7 @@ if (isset($_POST['reg_user'])) {
   			  VALUES('$username', '$email', '$password')";
   	mysqli_query($db, $query);
   	$_SESSION['Name'] = $username;
-  	$_SESSION['success'] = "You are now logged in";
+  	$_SESSION['success'] = "Bạn đã đăng nhập";
   	header('location: index.php');
   }
 }
@@ -67,10 +67,10 @@ if (isset($_POST['login_user'])) {
   $password = mysqli_real_escape_string($db, $_POST['password']);
 
   if (empty($username)) {
-  	array_push($errors, "email is required");
+  	array_push($errors, "Hãy nhập Email");
   }
   if (empty($password)) {
-  	array_push($errors, "Password is required");
+  	array_push($errors, "Hãy nhập mật khẩu");
   }
 
   if (count($errors) == 0) {
@@ -79,10 +79,10 @@ if (isset($_POST['login_user'])) {
   	$results = mysqli_query($db, $query);
   	if (mysqli_num_rows($results) == 1) {
   	  $_SESSION['email'] = $username;
-  	  $_SESSION['success'] = "You are now logged in";
+  	  $_SESSION['success'] = "Bạn đã đăng nhập";
   	  header('location: index.php');
   	}else {
-  		array_push($errors, "Wrong username/password combination");
+  		array_push($errors, "Sai tài khoản hoặc mật khẩu");
   	}
   }
 }

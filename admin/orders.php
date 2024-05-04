@@ -34,13 +34,13 @@ include "topheader.php";
           <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Orders  / Page <?php echo $page;?> </h4>
+                <h4 class="card-title">Đơn hàng / Page <?php echo $page;?> </h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                      <tr><th>Customer Name</th><th>Products</th><th>Contact | Email</th><th>Address</th><th>Details</th><th>Shipping</th><th>Time</th>
+                      <tr><th>Tên khách hàng</th><th>Sản phẩm</th><th>Liên hệ | Email</th><th>Địa chỉ</th><th>Chi tiết</th><th>Giao hàng</th><th>Thời gian</th>
                     </tr></thead>
                     <tbody>
                       <?php 

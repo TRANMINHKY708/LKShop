@@ -40,8 +40,8 @@ if (isset($_POST["login_user_with_product"])) {
                                     </div>
                                     
                                     <div class="form-group">
-                                       <label for="email">Password</label>
-                                        <input class="input input-borders" type="password" name="password" placeholder="password" id="password" required>
+                                       <label for="email">Mật khẩu</label>
+                                        <input class="input input-borders" type="password" name="password" placeholder="Mật khẩu" id="password" required>
                                     </div>
                                     
                                     <div class="text-pad" >
@@ -51,7 +51,7 @@ if (isset($_POST["login_user_with_product"])) {
                                         
                                     </div>
                                     
-                                        <input class="primary-btn btn-block"   type="submit"  Value="Login">
+                                        <input class="primary-btn btn-block"   type="submit"  Value="Đăng nhập">
                                         
                                         <div class="panel-footer"><div class="alert alert-danger"><h4 id="e_msg"></h4></div></div>
                                     
