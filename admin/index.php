@@ -118,7 +118,7 @@ include "topheader.php";
            <div class="col-md-5">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Subscribers</h4>
+                <h4 class="card-title">Đã đăng ký</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
